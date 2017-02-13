@@ -1,0 +1,46 @@
+{%- extends "layout.njk" -%}
+{%- block content -%}
+	  <div class="content animated fadeInUp">
+{%- include "snippets/aboutHead.njk" -%}
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="f_content embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/87701971"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <p>{{D2}}</p>
+                <p>{{D2}}</p>
+                <div style="height: 15px; clear: both"></div>
+                <h5 style="margin-bottom: 5px">Date</h5>
+                <p>November 2015</p>
+                <div style="height: 5px; clear: both"></div>
+                <h5 style="margin-bottom: 5px">Categories</h5>
+                <p>People, Photography</p>
+                <div style="height: 18px; clear: both"></div><a class="btn btn-default" href="#">Launch project</a></div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="container">
+        <h2>{{D1}}</h2>
+        <p>{{D3}}</p>
+        <p>{{D3}}</p>
+        <h3>{{D1}}</h3>
+        <p>{{D2}}</p>
+        <blockquote><i class="fa fa-quote-right pull-left"></i>
+            <h5>{{D2}}</h5></blockquote>
+        <p>{{D3}}</p>
+        <ul style="margin-bottom: 10px">
+            <li><i class="fa fa-check" style="color: #2ecc71; margin-right: 8px"></i>{{D1}}</li>
+            <li><i class="fa fa-check" style="color: #2ecc71; margin-right: 8px"></i>{{D1}}</li>
+            <li><i class="fa fa-check" style="color: #2ecc71; margin-right: 8px"></i>{{D1}}</li>
+        </ul>
+        <p><strong>{{D3}}</strong></p>
+        <p><em>{{D2}}</em></p>
+    </div>
+</div>
+</div>
+{%- endblock -%}

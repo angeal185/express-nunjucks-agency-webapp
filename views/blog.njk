@@ -1,0 +1,21 @@
+{%- extends "layout.njk" -%}
+{%- block content -%}
+<div class="content animated fadeInUp">
+{%- include "snippets/aboutHead.njk" -%}
+    <div class="block grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+{%- include "snippets/sidebar.njk" -%}
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9">
+{%- include "snippets/postImage.njk" -%}
+{%- include "snippets/postslider.njk" -%}
+{%- include "snippets/post.njk" -%}
+{%- include "snippets/postVideo.njk" -%}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%- endblock -%}
